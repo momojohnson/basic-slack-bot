@@ -1,0 +1,18 @@
+{
+  "name": "seawolf-express",
+  "version": "1.0.0",
+  "description": "Seawolf slack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Momo Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.6.0",
+    "aws-sdk": "^2.307.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "serverless-http": "^1.6.0"
+  }
+}
